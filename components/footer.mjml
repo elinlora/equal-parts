@@ -1,0 +1,46 @@
+<mj-section>
+  <mj-column>
+    <mj-image href="#" src="img/footer-logo.png" alt="footer logo" />
+  </mj-column>
+</mj-section>
+
+<mj-section mj-class="blue">
+  <mj-column mj-class="padding">
+    <mj-text align="center" padding="45px 0">
+      <a class="social-link" href="#"><img class="social-img" src="img/facebook.png" alt="facebook"></a>
+      <a class="social-link" href="#"><img class="social-img" src="img/instagram.png" alt="instagram"></a>
+      <a class="social-link" href="#"><img class="social-img" src="img/twitter.png" alt="twitter"></a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section mj-class="blue">
+  <mj-column padding="0 108px">
+    <mj-text align="center" font-size="12px" line-height="18px" letter-spacing="1px">
+      Equal Parts is the first brand from <a class="pattern" href="#">Pattern</a>, a family of brands designed to help you enjoy daily life. We are based in the heart of NYC.
+    </mj-text>
+    <mj-text align="center" font-size="12px" line-height="18px" letter-spacing="1px" padding-top="15px">
+      228 Park Ave S. PMB 73891
+      <br>
+      New York, NY, 10003 
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section mj-class="blue">
+  <mj-column mj-class="padding">
+    <mj-text align="center" padding-top="50px" font-size="10px" letter-spacing="1.2px">
+      <a class="unsub" href="#">Unsubscribe</a>
+      |
+      <a class="browser" href="#">View in Browser</a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section mj-class="blue">
+  <mj-column mj-class="padding">
+    <mj-text align="center" padding="30px 0" font-size="11px" letter-spacing="1.2px">
+      © 2021 Pattern Brands 
+    </mj-text>
+  </mj-column>
+</mj-section>

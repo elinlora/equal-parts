@@ -1,0 +1,17 @@
+<!-- Header Top -->
+<mj-section mj-class="blue">
+  <mj-column mj-class="padding">
+    <mj-text align="center" padding="20px 0">
+      Free Shipping on Orders 50+
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!-- / Header Top -->
+
+<!-- Header Hero -->
+<mj-section>
+  <mj-column>
+    <mj-image href="#" src="img/hero.jpeg" alt="hero" />
+  </mj-column>
+</mj-section>
+<!-- / Header Hero -->

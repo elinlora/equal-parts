@@ -1,0 +1,233 @@
+<mjml>
+  <mj-head>
+    
+    <!-- Title -->
+    <mj-title>Equal Parts</mj-title>
+
+    <!-- Preview -->
+    <mj-preview>
+      Build Your Dream Stovetop
+    </mj-preview>
+
+    <!-- Font -->
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" />
+
+    <!-- Attribute -->
+    <mj-attributes>
+      
+      <mj-class name="blue" background-color="#cad5e9" />
+      <mj-class name="padding" padding-left="20px" padding-right="20px" />
+      <mj-class name="col-pad" padding-left="10px" padding-right="10px" />
+
+      <mj-text padding="0" font-family="Lato" font-size="15px" color="#000"/>
+      <mj-wrapper padding="0" background-color="#f3efe4"/>
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-image padding="0" />
+
+    </mj-attributes>
+
+    <!-- Style -->
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+      * {
+        box-sizing: border-box;
+      }
+      h1, h2, h3, h4, h5, h6, p {
+        padding: 0;
+        margin: 0;
+      }
+      td {
+        padding: 0;
+      }
+      .product-title {
+        font-size: 14px;
+        color: #000000;
+        text-decoration: none;
+      }
+      .product-title:hover {
+        font-size: 14px;
+        color: #000000;
+        text-decoration: none;
+      }
+      .product-info {
+        font-size: 12px;
+        color: #000000;
+        text-decoration: none;
+      }
+      .product-info:hover {
+        font-size: 12px;
+        color: #000000;
+        text-decoration: none;
+      }
+      .shop-now {
+        font-size: 14px;
+        color: #000000;
+      }
+      .shop-now:hover {
+        color: #6495ed;
+      }
+      .social-img {
+        width: 25px;
+        margin: 0 15px;
+      }
+      .pattern {
+        color: #000000;
+      }
+      .unsub,
+      .browser {
+        color: #000000;
+        text-decoration: none;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    
+    <mj-wrapper>
+
+    <!-- Header -->
+    <mj-include path="components/header.mjml" />
+      
+    <!-- Main Products Title -->
+    <mj-section padding-top="35px">
+      <mj-column mj-class="padding">
+        <mj-text align="center" font-size="27px" font-weight="600">
+          Shop by Product
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /Main Products Title -->
+
+    <!-- Main Products -->
+    <!-- Row 1 -->
+    <mj-section mj-class="padding" padding-top="45px">
+      <mj-group>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/essential-pan.jpeg" alt="essential pan" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Essential Pan</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">10 in. | Assorted Colors Available</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/sauce-pot.jpeg" alt="sauce pan" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Sauce Pan</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">3.5 qt. | Assorted Colors Available</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- / Row 1 -->
+    <!-- Row 2 -->
+    <mj-section mj-class="padding" padding-top="45px">
+      <mj-group>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/stock-pot.jpeg" alt="stock pot" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">The Stock Pot</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">8 qt. | Assorted Colors Available</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/fry-pan.jpeg" alt="fry pan" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Fry Pan</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">8 in. | Assorted Colors Available</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- / Row 2 -->
+    <!-- Row 3 -->
+    <mj-section mj-class="padding" padding-top="45px">
+      <mj-group>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/utensils.jpeg" alt="utensils" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Utensils</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">5 pieces</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/chefs-knife.jpeg" alt="chefs knife" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Chef's Knife</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">8" German Steel</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- / Row 3 -->
+    <!-- Row 4 -->
+    <mj-section mj-class="padding" padding-top="45px" padding-bottom="45px">
+      <mj-group>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/baking-sheet.jpeg" alt="baking sheet" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Baking Sheet</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">19" x 12"</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="col-pad">
+          <mj-image href="#" src="img/cutting-board.jpeg" alt="chefs knife" />
+          <mj-text font-weight="600" padding-top="11px">
+            <a class="product-title" href="#">Cutting Board</a>
+          </mj-text>
+          <mj-text font-size="12px" padding-top="7px">
+            <a class="product-info" href="#">11" x 17" x 1"</a>
+          </mj-text>
+          <mj-text font-weight="600" padding-top="7px">
+            <a class="shop-now" href="#">Shop Now</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- / Row 4 -->
+    <!-- / Main Products -->
+
+    <!-- Footer -->
+    <mj-include path="components/footer.mjml" />
+
+    </mj-wrapper>
+
+
+  </mj-body>
+</mjml>
